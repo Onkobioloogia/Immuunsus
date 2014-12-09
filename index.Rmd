@@ -259,6 +259,18 @@ Shankaran et al., 2001.
 
 ---
 
+## Soolevähis on vähi T-rakud seotud hea prognoosiga
+# Totaalne CD3+ T
+
+![](http://www.sciencemag.org/content/313/5795/1960/F2.medium.gif)
+
+<footer class="source">Pilt: B, valge tulp mitte-relapseeruv vähk, must tulp relapseerunud. 
+<a href="http://www.sciencemag.org/content/313/5795/1960.full"> Galon et al., 2006.
+</a>
+</footer>
+
+---
+
 ## Th1, CTL ja mälu-T
 
 Anti-tumorigeensed - selgelt assotseeruvad hea prognoosiga
@@ -328,6 +340,26 @@ TH17-infiltreerumine on pahaloomulistes kasvajates tavaline:
 
 <footer class="source">Pilt: 
 <a href="http://www.bloodjournal.org/content/bloodjournal/101/7/2620.full.pdf?sso-checked=true"> Numasaki et al., 2002.
+</a>
+</footer>
+
+---
+
+## Immuunosuppressiivsed Treg rakud
+
+Kõige sagedamini kirjeldatud pro-tumorigensete omadustega CD4+ rakud
+
+ 
+- iseloomulik FOXP3 ja CD25 ekspressioon
+- immuunosupressiivne funktsioon on vahendatud üle
+    - TGF-$\beta$ ja IL-10 sekretsiooni ja
+    - CTLA4-vahendatud kontaktinhibitsiooni.
+
+<img src="http://www.nature.com/nm/journal/v18/n5/images/nm.2731-F2.jpg" style="height:200px;"/>
+
+<footer class="source">Pilt:
+<a href="http://www.nature.com/nm/journal/v18/n5/fig_tab/nm.2731_F2.html">
+Holgate, 2012.
 </a>
 </footer>
 
