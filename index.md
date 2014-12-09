@@ -401,10 +401,11 @@ Fridman et al., 2012.
 - [Signaalirajad](http://tpall.github.io/Signaalirajad)
 - [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
 - [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
-- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
+
 
 ***=right 
 
+- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
 - [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
 - [Tumorigenees](http://tpall.github.io/Tumorigenees)
 - [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
