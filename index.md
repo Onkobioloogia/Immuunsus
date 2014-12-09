@@ -346,13 +346,31 @@ Kõige sagedamini kirjeldatud pro-tumorigensete omadustega CD4+ rakud
     - TGF-$\beta$ ja IL-10 sekretsiooni ja
     - CTLA4-vahendatud kontaktinhibitsiooni.
 
-<img src="http://www.nature.com/nm/journal/v18/n5/images/nm.2731-F2.jpg" style="height:200px;"/>
+<img src="http://www.nature.com/nm/journal/v18/n5/images/nm.2731-F2.jpg" style="height:240px;"/>
 
 <footer class="source">Pilt:
 <a href="http://www.nature.com/nm/journal/v18/n5/fig_tab/nm.2731_F2.html">
 Holgate, 2012.
 </a>
 </footer>
+
+---
+
+## Kasvaja makrofaagid
+
+Makrofaagid võivad diferentseeruda kahes suunas: 
+
+# **tüüp 1 (M1)**
+
+- vastusena bakteriaalse infektsioonile (LPS) ja 
+- Th1 sekreteeritavale INF-$\gamma$ muutuvad aktiivselt fagotsüteerivateks rakkudeks, suunatud ka vähirakkude vastu;
+
+# **tüüp 2 (M2)**, 
+
+- vastusena hüpoksiale ja vähi poolt sekreteeritud tsütokiinidele IL-4, IL-10, IL-13 või
+- TGF-β ja prostaglandiin E2 diferentseeruvad makrofaagid immuunosupressiivseteks ja 
+- sarnaselt Th2 rakkudele hakkavad Th1-supresseerivaid tsütokiine tootma (IL-10 ja IL1$\beta$).
+
 
 ---
 
