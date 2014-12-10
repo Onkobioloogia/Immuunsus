@@ -371,7 +371,7 @@ Holgate, 2012.
 Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülitatud".
 
 - FcR$\gamma$ aktivatsioon lükkab tagant põletiku põhjustatud kartsinogeneesi.
-- B rakkude poolt sekreteeritavate autoantikehade akumulatsioon stroomas aktiveerib üle FcR$\gamma$ retseptori nuumrakud [Andreu et al. (2010)](http://www.sciencedirect.com/science/article/pii/S1535610809004310)
+- B rakkude poolt sekreteeritavate autoantikehade akumulatsioon stroomas aktiveerib üle FcR$\gamma$ retseptori nuumrakud (sekreteerivad histamiini, hepariini) [Andreu et al. (2010)](http://www.sciencedirect.com/science/article/pii/S1535610809004310)
 - FcR$\gamma$ reguleerib ka makrofaagide angiogeneetilist ja protumorigeenset toimet.
 
 ![](assets/img/k14hpv16jh.png)
@@ -379,11 +379,22 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 <footer class="source">Pilt: Andreu et al. (2010).
 </footer>
 
+---
+
+# FcR$\gamma$ reguleerib ka makrofaagide angiogeneetilist ja protumorigeenset toimet.
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610810000358-gr1.jpg)
+
+<footer class="source">Pilt: Mantovani, 
+<a href="http://www.sciencedirect.com/science/article/pii/S1535610810000358">
+2010
+</a>.
+</footer>
+
+
 ---&twocol
 
 ## NK rakud
-
-- **NK rakkude märklauaks** on sellised rakud mille pinnalt **puuduvad MHC-I molekulid** ja rakud mis ekspresseerivad oma pinnal **NKG2D ligandi MICA või RAE**.
 
 ***=left
 
@@ -393,6 +404,13 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 - pole aktiveeritavad isegi IL-2 poolt,
 - ei sekreteeri INF$\gamma$.
 
+
+# NK rakkude märklauaks
+
+- sellised rakud mille pinnalt **puuduvad MHC-I molekulid** ja 
+- rakud mis ekspresseerivad oma pinnal **NKG2D ligandi MICA või RAE**.
+
+
 ***=right
 
 ![](http://highheelrevolution.files.wordpress.com/2011/07/hypothyroidism-and-impotence-lg.jpg?w=282&h=300)
@@ -400,7 +418,7 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 ---&twocol
 
 ## NKG2D ja ligandid
-
+# NKG2D on aktivatsiooniretseptoriks NK rakkudel
 
 ***=left
 
@@ -408,14 +426,24 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 
 ***=right
 
-- NKG2D on aktivatsiooniretseptoriks NKrakkudel.
-- vastusena stressile või DNA kahjustustele, samuti konstitutiivselt vähirakkudel.
+- NKG2D ekspr. vastusena stressile või DNA kahjustustele, samuti konstitutiivselt vähirakkudel.
 - NKG2D ligandid on MICA/B ja RAE valgud.
 - RAE üleekspressioon hiires muudab need loomad vastuvõtlikumaks kartsinogeneesile.
 - Inimese kartsinoomid ja melanoomid üleekspresseerivad lahustuvat MICA ligandi (tekib proteolüütilise lõikamise teel, *shedding*)
 
 <footer class="source">Pilt: Nature Immunology.
 </footer>
+
+---
+
+## KIR *killer inhibitory receptor*
+# NK vastust vähile reguleerib signaalide tasakaal
+
+- KIR *killer inhibitory receptor* blokeerib MHC-I molekuliga interakteerudes NK rakkude vastuse.
+- Rakud millel puuduvad MHC-I molekulid vallandavad NK-vastuse ja tapetakse.
+- Osadel kasvajatüüpidel on MHC-I puudumine seotud parema vastusega.
+
+![](http://www.frontiersin.org/files/Articles/38940/fimmu-04-00076-HTML/image_m/fimmu-04-00076-g001.jpg)
 
 ---
 
@@ -433,6 +461,17 @@ Makrofaagid võivad diferentseeruda kahes suunas:
 - vastusena hüpoksiale ja vähi poolt sekreteeritud tsütokiinidele IL-4, IL-10, IL-13 või
 - TGF-β ja prostaglandiin E2 diferentseeruvad makrofaagid immuunosupressiivseteks ja 
 - sarnaselt Th2 rakkudele hakkavad Th1-supresseerivaid tsütokiine tootma (IL-10 ja IL1$\beta$).
+
+---
+
+## TGF-β mehhanismid vähi immuunsupressioonis 
+
+- TGF-β blokeerib interleukiin 2 ekspressiooni (IL-2). IL-2 aktiveerib T rakke, NK rakke jt. immuunrakke.
+- TGF-β inhibeerib T rakkude jagunemist (p15 ja p21 läheb ülesse ning c-myc, CDK2/E alla).
+- TGF-β inhibeerib tsütotoksiliste T rakkude aktivatsiooni, supresseerides IFN-γ ja perforiini ekspressiooni.
+- TGF-β inhibeerib graanulite eksotsütoosi ja CD8+ T rakkude tsütolüütilisi funktsioone.
+- TGF-β soodustab regulatoorsete T rakkude teket (Treg). Vähipatsientidel on neid tihti rohkelt.
+- Füsioloogiline roll, hiirtel kellel puudub TGF-β1 (TGF-β1−/−) areneb välja multifokaalne põletikuline haigus, mis on tingitud kõrgenenud tsütokiinide produktsioonist.
 
 
 ---
