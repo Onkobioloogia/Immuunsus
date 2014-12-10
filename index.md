@@ -185,6 +185,24 @@ Shankaran et al., 2001.
 </a>
 </footer>
 
+
+---
+
+## Kas rakulised onkogeenid on immunogeensed?
+
+- Mutantsete vähi ja normaalsete valkude erinevused on väikesed: RAS, TP53, BCR-ABL.
+- Trioosfosfaat isomeraas (glükolüüsi rada) on mitmetes vähkides immunogeenne.
+- Mutantse RAS valgu struktuur ei ole muutunud (nt. KRASG12V vs. wt KRAS), madal immunogeensus ja lisaks on onkogeensed RAS valgud madalalt ekspresseeritud.
+
+---
+
+## Vähis võib tekkida immuunvastus kõrgelt ekspresseeritud valkude vastu
+
+- hTERT on üleekspresseeritud 70-80% vähkides. Maksakartsinoomi patsientidel hTERT-vastased antikehad veres. Nende antikehade roll progressioonis ebaselge.
+- HER2/neu positiivsed rinnakartsinoomid, seal 10-20x üleekspressioon (trastuzumab).
+- GD3 gangliosiid (siaalhapet sisaldav glükosfingolipiid) on mitmetes vähkides (melanoon sh.) üle ekspresseeritud.
+
+
 ---&twocol
 
 ## Immuunrakud kasvaja mikrokeskonnas
