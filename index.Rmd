@@ -425,7 +425,7 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 
 # NK rakkude märklauaks
 
-- sellised rakud mille pinnalt **puuduvad MHC-I molekulid** ja 
+- sellised rakud mille pinnalt **puuduvad MHC-I molekulid** (MHC-I puudumine hoiab samas ära CTL vastuse) ja 
 - rakud mis ekspresseerivad oma pinnal **NKG2D ligandi MICA või RAE**.
 
 
