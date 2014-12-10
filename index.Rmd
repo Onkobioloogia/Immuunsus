@@ -473,6 +473,24 @@ Makrofaagid võivad diferentseeruda kahes suunas:
 - TGF-β soodustab regulatoorsete T rakkude teket (Treg). Vähipatsientidel on neid tihti rohkelt.
 - Füsioloogiline roll, hiirtel kellel puudub TGF-β1 (TGF-β1−/−) areneb välja multifokaalne põletikuline haigus, mis on tingitud kõrgenenud tsütokiinide produktsioonist.
 
+---
+
+## *Programmed death-1* vähi immunsupressioonis
+
+- Vähirakud suruvad adaptiivse immuunvastuse alla ka selleläbi, et reguleerivad ülesse **PD-1 ligandi (PD-L1)**.
+- PD-1L on vähirakkudel konstitutiivselt ekspresseeritud.
+- PD-L1 seostumine antigeen-spetsiifilistele CD8+ T rakkudel olevale PD-1 retseptorile surub alla nende T rakkude effektor funktsioonid (rakkude tapmine).
+- Sarnaselt immuunsupressiivselt toimib ka vähirakkudel jt. keharakkudel ekspresseeritav CTLA-4
+
+
+![](http://www.nature.com/nbt/journal/v30/n8/images/nbt0812-729-I1.gif)
+
+
+<footer class="source">Pilt: Vähi checkpoint teraapia.
+<a href="http://www.nature.com/news/antibody-alarm-call-rouses-immune-response-to-cancer-1.10784">
+Hayden, 2012.
+</a>
+</footer>
 
 ---
 
