@@ -374,7 +374,7 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 
 ## NK rakud
 
-- **NK rakkude märklauaks** on sellised rakud mille pinnalt **puuduvad MHC-I molekulid** ja rakud mis ekspresseerivad oma pinnal **NKG2D ligandi MICA vüi RAE**.
+- **NK rakkude märklauaks** on sellised rakud mille pinnalt **puuduvad MHC-I molekulid** ja rakud mis ekspresseerivad oma pinnal **NKG2D ligandi MICA või RAE**.
 
 ***=left
 
