@@ -62,8 +62,78 @@ strong {
 
 ---
 
-## Metastaasid
+---&twocol
 
+## Metastaasi potentsiaal on olemas algses vähis
+
+Metastaseerumise põhjustavad samad onkogeensed stiimulid/geenid, mis põhjustasid ka algse vähi tekke
+
+
+***=left
+
+- Vähi metastaseerumise ennustab algse vähi geeniekspressioon.
+- Rinnavähi halva prognoosi geenimuster sisaldab geene mis reguleerivad rakutsüklit, invasiooni ja angiogeneesi.
+
+***=right
+
+<img src="http://www.nature.com/nature/journal/v415/n6871/images/415530a-f2.2.jpg" style="width:360px">
+
+<footer class="source">Pilt:  Gene expression profiling predicts clinical outcome of breast cancer. 
+<a href="http://www.nature.com/nature/journal/v415/n6871/full/415530a.html">van 't Veer et al., 2002.
+</a>
+</footer>
+
+---&twocol
+
+## Metastaaside organotropismi määravad faktorid
+
+![](assets/img/gr2_lrg.jpg)
+
+***=left
+
+- Organ-spetsiifilist levikut määravad faktorid.
+    - Vereringe muster.
+    - Endoteeli omadused.
+    - Ellujäämis niššid.
+
+***=right
+
+- Organ-spetsiifilist kolonisatsiooni määravad faktorid.
+    - Latentsus ja reaktivatsioonisignaalid.
+    - Stroomarakkude signalisatsioon.
+    - Teraapia vastus.
+    
+<footer class="source">Pilt: Metastasis Steps and Bottlenecks. Sakari Vanharanta, Joan Massagué, 
+<a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0">2013
+</a>
+</footer>
+
+---
+
+## Metastaasi mutatsioonid on samad mis primaarse vähiga seotud mutatsioonid
+
+- Pankrease vähi metastaatilised kloonid sisaldavad **KRASG12V, MYC ja CCNE1** geenimutatsioone.
+- Neeruvähi metastaasides on muteerunud **TP53, SETD2, KDM5C**.
+- ER-positiivse rinnavähi patsiendil 9 a. peale primaarse vähi eemaldamist tekkinud metastaasides oli peamine mutatsioon **ERBB2** amplifikatsioon.
+
+---&twocol
+
+## Metastaasi signalisatsiooni eripärad
+
+***=left
+
+- Onkogeense signalisatsiooni amplifikatsioon (signaalirajad muutuvad tundlikumaks stimulatsioonile).
+- Ekspressioonimärklaudade repertuaari laienemine (epigeneetilise regulatsiooni läbi).
+
+***=right
+
+![fitness](http://www.cell.com/cms/attachment/2009273093/2032282109/gr4.jpg)
+
+<footer class="source">Pilt: 
+<a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0#">
+Sakari Vanharanta, Joan Massagué, 2013.
+</a>.
+</footer>
 
 --- .segue .dark .nobackground
 
