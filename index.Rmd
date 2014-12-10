@@ -397,11 +397,22 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 
 ![](http://highheelrevolution.files.wordpress.com/2011/07/hypothyroidism-and-impotence-lg.jpg?w=282&h=300)
 
----
+---&twocol
 
 ## NKG2D ja ligandid
 
+
+***=left
+
 ![nkg2d](http://www.nature.com/nri/journal/v7/n9/images/nri2144-f1.jpg)
+
+***=right
+
+- NKG2D on aktivatsiooniretseptoriks NKrakkudel.
+- vastusena stressile või DNA kahjustustele, samuti konstitutiivselt vähirakkudel.
+- NKG2D ligandid on MICA/B ja RAE valgud.
+- RAE üleekspressioon hiires muudab need loomad vastuvõtlikumaks kartsinogeneesile.
+- Inimese kartsinoomid ja melanoomid üleekspresseerivad lahustuvat MICA ligandi (tekib proteolüütilise lõikamise teel, *shedding*)
 
 <footer class="source">Pilt: Nature Immunology.
 </footer>
