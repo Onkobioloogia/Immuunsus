@@ -356,6 +356,49 @@ Holgate, 2012.
 
 ---
 
+## B rakud
+# Humoraalne immuunsus reguleerib lamerakulise nahakartsinoomi arengut
+
+Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülitatud".
+
+- FcR$\gamma$ aktivatsioon lükkab tagant põletiku põhjustatud kartsinogeneesi.
+- B rakkude poolt sekreteeritavate autoantikehade akumulatsioon stroomas aktiveerib üle FcR$\gamma$ retseptori nuumrakud [Andreu et al. (2010)](http://www.sciencedirect.com/science/article/pii/S1535610809004310)
+- FcR$\gamma$ reguleerib ka makrofaagide angiogeneetilist ja protumorigeenset toimet.
+
+![](assets/img/k14hpv16jh.png)
+
+<footer class="source">Pilt: Andreu et al. (2010).
+</footer>
+
+---&twocol
+
+## NK rakud
+
+- **NK rakkude märklauaks** on sellised rakud mille pinnalt **puuduvad MHC-I molekulid** ja rakud mis ekspresseerivad oma pinnal **NKG2D ligandi MICA vüi RAE**.
+
+***=left
+
+# Kasvajas on NK rakud anergilised
+
+- anergia ilmselt vahendatud läbi kasvaja TGF-$\beta$
+- pole aktiveeritavad isegi IL-2 poolt,
+- ei sekreteeri INF$\gamma$.
+
+***=right
+
+![](http://highheelrevolution.files.wordpress.com/2011/07/hypothyroidism-and-impotence-lg.jpg?w=282&h=300)
+
+---
+
+## NKG2D ja ligandid
+
+![nkg2d](http://www.nature.com/nri/journal/v7/n9/images/nri2144-f1.jpg)
+
+<footer class="source">Pilt: Nature Immunology.
+</footer>
+
+---
+
 ## Kasvaja makrofaagid
 
 Makrofaagid võivad diferentseeruda kahes suunas: 
