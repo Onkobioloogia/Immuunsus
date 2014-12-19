@@ -585,8 +585,7 @@ Fridman et al., 2012.
 
 --- .segue .dark .nobackground
 
-## Lingid eelmistele loengutele
-
+## Lingid teistele loengutele
 
 --- &twocol 
 
@@ -610,3 +609,5 @@ Fridman et al., 2012.
 - [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
 - [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
 - [Metastaasid](http://tpall.github.io/Metastaas)
+- [Immuunsus](http://tpall.github.io/Immuunsus)
+- [Vähiravimid](http://tpall.github.io/Vahiravim)
