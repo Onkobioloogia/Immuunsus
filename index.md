@@ -164,7 +164,7 @@ Sakari Vanharanta, Joan Massagué, 2013.
 # *Cancer immunoediting*
 
 - Alternatiivseks hüpoteesiks vähirakkude ja immuunsüsteemi interaktsioonide kirjeldamiseks on **vähi immuunokujundamine**.
-- Vähi **täielik elimineerimine immuunsüsteemi poolt** on immuunokujundamine üks stsenaarium. 
+- Vähi **täielik elimineerimine immuunsüsteemi poolt** on immuunokujundamise üks stsenaarium. 
 - Teine stsenaarium on **immuunsüsteemi poolt kujundatud vähirakkude** repertuaari esiletõus. 
 - Immuunsüsteemiga kohandunud vähirakud on kas 
   - **vähem immuunogeneesed**,
