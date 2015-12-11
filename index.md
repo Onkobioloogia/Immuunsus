@@ -2,7 +2,7 @@
 title       : Vähi immuunsus ja immuunoteraapia
 subtitle    : Onkobioloogia
 author      : Taavi Päll
-job         : vanemteadur, VTAK
+job         : lektor, TTÜ
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -19,7 +19,8 @@ img {
   }
 </style>
 
-<style> .title-slide {
+<style> 
+.title-slide {
 background-image:url(http://www.nature.com/mt/journal/v18/n2/images/mt2009228f2.gif);
 background-repeat: no-repeat;
 background-position: 0% 5%;
@@ -53,8 +54,26 @@ em {
 strong {
   font-weight: bold;
 }
-</style>
 
+table {
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Trebuchet MS';
+  font-weight: bolder;
+  color: rgb(102, 102, 102);
+}
+
+.ninety {
+  font-size: 90%;
+   }
+
+.fifty {
+   font-size: 50%;
+   }
+</style>
 
 --- .segue .dark .nobackground
 
@@ -153,7 +172,7 @@ Sakari Vanharanta, Joan Massagué, 2013.
 
 ***=left
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Paul_Ehrlich_4.jpg/640px-Paul_Ehrlich_4.jpg" style="height:200px"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Paul_Ehrlich_1915.jpg/800px-Paul_Ehrlich_1915.jpg" style="height:200px"/>
 
 <footer class="source">Pilt: wikipedia.
 </footer>
@@ -213,7 +232,29 @@ Lisaks:
 </a>
 </footer>
 
+----
+# Vähi intsidents organi transplantatsiooni patsientidel
 
+
+|Site of cancer          | No. cases observed| No. cases expected| Ratio obs/exp (adj)|
+|:-----------------------|------------------:|------------------:|-------------------:|
+|non melanoma skin       |                127|                5.1|                21.7|
+|thyroid other endocrine |                 30|                2.1|                11.0|
+|mouth tongue lip        |                 22|                1.6|                10.0|
+|cervix vulva vagina     |                 39|                3.6|                 9.4|
+|non-Hodgkins lymphoma   |                 25|                2.4|                 8.5|
+|kidney ureter           |                 32|                3.5|                 8.0|
+|bladder                 |                 26|                4.7|                 5.2|
+|colorectal              |                 38|               10.5|                 3.6|
+|lung                    |                 30|               12.5|                 2.5|
+|brain                   |                 10|                4.1|                 2.6|
+|prostate                |                 11|                5.2|                 2.3|
+|melanoma                |                  7|                4.1|                 2.0|
+|breast                  |                 15|               13.6|                 1.2|
+
+<footer class="source">Tabel: [Peto, J (2001)](http://www.nature.com/nature/journal/v411/n6835/full/411390a0.html). Cancer epidemiology in the last century and the next decade. Nature, 411, 6835:390-5.
+[Birkeland, et al. (1995)](http://onlinelibrary.wiley.com/doi/10.1002/ijc.2910600209/abstract). Cancer risk after renal transplantation in the Nordic countries, 1964-1986. Int. J. Cancer, 60, 2:183-9. ADJustment by empirical Bayesian shrinkage towards a Beta prior.
+</footer>
 
 ---&twocol
 
@@ -272,6 +313,37 @@ Shankaran et al., 2001.
 - HER2/neu positiivsed rinnakartsinoomid, seal 10-20x üleekspressioon (trastuzumab).
 - GD3 gangliosiid (siaalhapet sisaldav glükosfingolipiid) on mitmetes vähkides (melanoon sh.) üle ekspresseeritud.
 
+---- 
+# Inimese GI vähi mutatsioonide immunogeensus
+
+
+|ID    |Age/sex |Tumor      |Mutated prot |Aa change |T cell type |% in tumor |
+|:-----|:-------|:----------|:------------|:---------|:-----------|:----------|
+|3737* |45/F    |Bile duct  |ERBB2IP      |E805G     |CD4         |0.009      |
+|      |        |           |             |E805G     |CD4         |0.375      |
+|3812  |44/M    |Bile duct  |—            |—         |—           |—          |
+|3942  |46/F    |Rectal     |NUP98        |A359D     |CD8         |0.67       |
+|      |        |           |KARS         |D356      |CD8         |0.020      |
+|      |        |           |GPD2         |E426K     |CD4         |0.037      |
+|3948  |48/M    |Esophageal |PLEC         |E1179K    |CD4         |NE         |
+|      |        |           |XPO7         |P274S     |CD4         |NE         |
+|      |        |           |AKAP2        |Q418K     |CD4         |NE         |
+|3971  |49/M    |Colon      |CASP8        |F67V      |CD8         |1.25       |
+|3978  |46/F    |Bile duct  |ITGB4        |S1002I    |CD4         |NE         |
+|3995  |50/M    |Colon      |TUBGCP2      |P293L     |CD8         |0.023      |
+|      |        |           |RNF213       |N1702S    |CD8         |0.60       |
+|      |        |           |KRAS         |G12D      |CD8         |0.055      |
+|4007  |52/M    |Colon      |SKIV2L       |R653H     |CD8         |0.090      |
+|      |        |           |             |R653H     |CD8         |0.014      |
+|      |        |           |H3F3B        |A48T      |CD8         |1.19       |
+|4032  |46/M    |Colon      |API5         |R243Q     |CD8         |0.083      |
+|      |        |           |             |R243Q     |CD8         |0.059      |
+|      |        |           |RNF10        |E572K     |CD8         |0.030      |
+|      |        |           |PHLPP1       |G566E     |CD8         |0.081      |
+|4069  |57/M    |Pancreatic |ZFYVE27      |R6H       |CD8         |0.088      |
+
+<footer class="source">Tabel: Mutation-reactive T cells in metastatic GI cancers [Tran, et al., (2015)](http://www.sciencemag.org/content/350/6266/1387/T1.expansion.html) Immunogenicity of somatic mutations in human gastrointestinal cancers. Science 11 December 2015: Vol. 350 no. 6266 pp. 1387-1390
+</footer>
 
 ---&twocol
 
@@ -368,24 +440,28 @@ Anti-tumorigeensed - selgelt assotseeruvad hea prognoosiga
 
 ## Cytotoxic T Cells on Patrol
 
-<iframe width="640" height="390" src="https://www.youtube.com/embed/cJU7ZaWe5-o" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="https://www.youtube.com/embed/cJU7ZaWe5-o?t=28" frameborder="0" allowfullscreen></iframe>
 
----
-
+--- &twocol
 ## Th2 & Th17
-
 Enamasti kasvaja arengut võimendav effekt
 
- 
-# TH2
-- produtseerivad IL-4, IL-5 ja IL-13 ja
+***=left
+
+- **TH2** produtseerivad IL-4, IL-5 ja IL-13 ja
 - toetavad B-rakkude aktivatsiooni
 - sekreteerivad immunosuppressiivset IL-10
 
-# TH17
-- TH17 polarisatsiooni indutseerivad TGF-$\beta$ ja IL-6
+- **TH17** polarisatsiooni indutseerivad TGF-$\beta$ ja IL-6
 - IL-17A, IL17F, IL-21 ja IL-22
 - bakteriaalse põletiku vastus
+
+***=right
+
+<img src="http://ajp.amjpathol.org/cms/attachment/2010721194/2032940770/gr1.jpg" style="width:400px">
+
+<footer class="source">Pilt: Ye, J, Livergood, RS, Peng, G (2013). The role and regulation of human Th17 cells in tumor immunity. Am. J. Pathol., 182, 1:10-20.
+</footer>
 
 ---&twocol
 
@@ -597,8 +673,8 @@ Fridman et al., 2012.
 
 ***=left 
 
-- [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
-- [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+- [Sissejuhatav loeng](http://tpall.github.io/sissejuhatus)
+- [Vähitüübid](http://tpall.github.io/Vahityybid)
 - [Onkoviirused](http://tpall.github.io/Onkoviirused)
 - [Onkogeenid](http://tpall.github.io/Onkogeenid)
 - [Retseptorid](http://tpall.github.io/Retseptorid)

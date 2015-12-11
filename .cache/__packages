@@ -3,3 +3,8 @@ slidify
 slidifyLibraries
 magrittr
 ggplot2
+xml2
+rvest
+dplyr
+MASS
+knitr
