@@ -148,7 +148,8 @@ Metastaseerumise põhjustavad samad onkogeensed stiimulid/geenid, mis põhjustas
 
 ![fitness](http://www.cell.com/cms/attachment/2009273093/2032282109/gr4.jpg)
 
-<footer class="source">Pilt: 
+<footer class="source">Pilt:  In triple-negative breast cancer examples include VCAM-1 and SRC as amplifiers of the PI3K pathway in cancer cells reaching the lungs or the bone marrow, respectively, whereas Tenascin C and Periostin act as amplifiers of the WNT and NOTCH pathways in cancer cells reaching the lungs.
+The expansion of target genes that the HIF pathway activates in renal cell carcinoma as a result of epigenetic modifications that open the gene promoters to access by activated HIF
 <a href="http://www.cell.com/cancer-cell/fulltext/S1535-6108(13)00417-0#">
 Sakari Vanharanta, Joan Massagué, 2013.
 </a>.
