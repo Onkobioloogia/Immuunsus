@@ -589,7 +589,7 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 ---&twocol
 
 ## NKG2D ja ligandid
-# NKG2D on aktivatsiooniretseptoriks NK rakkudel
+# NKG2D on aktivatsiooniretseptoriks NK rakkudel -- aktiveerivad *killer immunoglobulin-like receptor* (KIR) molekulid (NKR-P1, CD94/NKG2(A/B))
 
 ***=left
 
@@ -608,10 +608,10 @@ Hiire K14-HPV16JH-/- nahakartsinoomi mudel kus on B rakkude teke "välja lülita
 
 ---
 
-## KIR *killer inhibitory receptor*
+## Inhibeerivad KIR valgud
 # NK vastust vähile reguleerib signaalide tasakaal
 
-- KIR *killer inhibitory receptor* blokeerib MHC-I molekuliga interakteerudes NK rakkude vastuse.
+- Inhibeeriv KIR blokeerib MHC-I molekuliga interakteerudes NK rakkude vastuse.
 - Rakud millel puuduvad MHC-I molekulid vallandavad NK-vastuse ja tapetakse.
 - Osadel kasvajatüüpidel on MHC-I puudumine seotud parema vastusega.
 
