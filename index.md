@@ -207,15 +207,6 @@ Sakari Vanharanta, Joan Massagué, 2013.
 
 ***=left
 
-
-```
-## Warning: `stat` is deprecated
-```
-
-```
-## Error: stat_count() must not be used with a y aesthetic.
-```
-
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
 ***=right
 
@@ -323,25 +314,69 @@ Shankaran et al., 2001.
 - HER2/neu positiivsed rinnakartsinoomid, seal 10-20x üleekspressioon (trastuzumab).
 - GD3 gangliosiid (siaalhapet sisaldav glükosfingolipiid) on mitmetes vähkides (melanoon sh.) üle ekspresseeritud.
 
+---
+## Vähi antigeenid
+
+1. TSTA - *tumor specific transplantation antigens (TA)* strukturaalselt uudsed, kindla vähi või vähitüübiga seotud antigeenid mida ei esine normaalsetes kudedes.
+2. TATA - *tumor associated TA* -- vähis ekspresseeritud normaalsed valgud mille suhtes pole mingil põhjusel täielikku tolerantsust tekkinud.
+
+Vähitüüp|Valk|Antigenne peptiid
+--------|----|-----------------
+melanoom, suuõõne kartsinoom, maksa kartsinoom, mitte-väikserakuline kopsuvähk|MAGE|EADPTGHSY, SAYGEPRKL
+melanoom|türosinaas|MLLAVLYCL, YMNGTMSQV
+käärsoole kartsinoom|kartsino-embrüonaalne antigeen (CEA)|YLSGANLNL
+rinna- ja munasarja kartsinoomid|HER2/neu|KIFGSLAFL
+pea-kaela kartsinoom|kaspaas 8|FPSDWCYF
+krooniline müelogeenne leukeemia (CML)|BCR-ABL|ATGFKQSSKALQRPVAS
+eesnäärme kartsinoom|eesnäärme spetsiifiline antigeen (PSA)|FLTPKKKLQCV, VISNDVCAQV
+
+
+<footer class="source">Tabel: R.A. Goldsby et al., Immunology, 5th ed. New York: Freeman 2002; B.J. Van den Eynde and P. van der Bruggen, Curr Opin. Immunol. 9:684-693, 1997. Adapteeritud: The Biology of Cancer, 2007.
+</footer>
+
+---
+
+## Keemiliselt indutseeritud fibrosarkoomi antigeenide spetsiifilisus
+
+- BALB/c hiiri immuniseeriti 3-MC-indutseeritud Meth A fibrosarkoomi lüsaadiga
+- Immuniseeritud hiirtest eraldati antigeeni presenteerivad 24D3 lümfotsüüdid
+- Ainult Meth A lüsaat indutseeris neid lümfotsüüte jagunema (A, vasakul)
+- 24D3 lümfotsüütidega transplanteeritud hiirtes kasvab küll teine samasugune fibrosarkoom (CMS5, kõige parempoolne pilt) aga mitte Meth A (keskel).
+
+
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
+
+<footer class="source">T. Matsutake and P.K. Srivastava, 2001. PNAS98:3992-3997. The immunoprotective MHC II epitope of a chemically induced tumor harbors a unique mutation in a ribosomal protein. doi: 10.1073/pnas.071523398
+</footer>
+
 ---- 
 # Inimese GI vähi mutatsioonide immunogeensus
 
 
-```
-## Error in open.connection(x, "rb"): HTTP error 403.
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'tdist' not found
-```
-
-```
-## Error in colnames(crc) <- c("ID", "Age/sex", "Tumor", "Mutated prot", : object 'crc' not found
-```
-
-```
-## Error in inherits(x, "list"): object 'crc' not found
-```
+|ID    |Age/sex |Tumor      |Mutated prot |Aa change |T cell type |% in tumor |
+|:-----|:-------|:----------|:------------|:---------|:-----------|:----------|
+|3737* |45/F    |Bile duct  |ERBB2IP      |E805G     |CD4         |0.009      |
+|      |        |           |             |E805G     |CD4         |0.375      |
+|3812  |44/M    |Bile duct  |—            |—         |—           |—          |
+|3942  |46/F    |Rectal     |NUP98        |A359D     |CD8         |0.67       |
+|      |        |           |KARS         |D356      |CD8         |0.020      |
+|      |        |           |GPD2         |E426K     |CD4         |0.037      |
+|3948  |48/M    |Esophageal |PLEC         |E1179K    |CD4         |NE         |
+|      |        |           |XPO7         |P274S     |CD4         |NE         |
+|      |        |           |AKAP2        |Q418K     |CD4         |NE         |
+|3971  |49/M    |Colon      |CASP8        |F67V      |CD8         |1.25       |
+|3978  |46/F    |Bile duct  |ITGB4        |S1002I    |CD4         |NE         |
+|3995  |50/M    |Colon      |TUBGCP2      |P293L     |CD8         |0.023      |
+|      |        |           |RNF213       |N1702S    |CD8         |0.60       |
+|      |        |           |KRAS         |G12D      |CD8         |0.055      |
+|4007  |52/M    |Colon      |SKIV2L       |R653H     |CD8         |0.090      |
+|      |        |           |             |R653H     |CD8         |0.014      |
+|      |        |           |H3F3B        |A48T      |CD8         |1.19       |
+|4032  |46/M    |Colon      |API5         |R243Q     |CD8         |0.083      |
+|      |        |           |             |R243Q     |CD8         |0.059      |
+|      |        |           |RNF10        |E572K     |CD8         |0.030      |
+|      |        |           |PHLPP1       |G566E     |CD8         |0.081      |
+|4069  |57/M    |Pancreatic |ZFYVE27      |R6H       |CD8         |0.088      |
 
 <footer class="source">Tabel: Mutation-reactive T cells in metastatic GI cancers [Tran, et al., (2015)](http://www.sciencemag.org/content/350/6266/1387/T1.expansion.html) Immunogenicity of somatic mutations in human gastrointestinal cancers. Science 11 December 2015: Vol. 350 no. 6266 pp. 1387-1390
 </footer>
@@ -517,11 +552,13 @@ Kõige sagedamini kirjeldatud pro-tumorigensete omadustega CD4+ rakud
     - TGF-$\beta$ ja IL-10 sekretsiooni ja
     - CTLA4-vahendatud kontaktinhibitsiooni.
 
-<img src="http://www.nature.com/nm/journal/v18/n5/images/nm.2731-F2.jpg" style="height:240px;"/>
+<img src="http://www.nature.com/nrc/journal/v13/n11/images/nrc3611-f2.jpg" style="height:240px;"/>
 
 <footer class="source">Pilt:
-<a href="http://www.nature.com/nm/journal/v18/n5/fig_tab/nm.2731_F2.html">
-Holgate, 2012.
+<a href="http://www.nature.com/nrc/journal/v13/n11/fig_tab/nrc3611_F2.html">
+Inflammation-induced cancer: crosstalk between tumours, immune cells and microorganisms
+Eran Elinav,	Roni Nowarski,	Christoph A. Thaiss,	Bo Hu,	Chengcheng Jin	& Richard A. Flavell
+Nature Reviews Cancer 13, 759–771 (2013) doi:10.1038/nrc3611.
 </a>
 </footer>
 

@@ -212,9 +212,10 @@ library(ggplot2)
 trans<-data.frame(Arv=c(13372,4954,2198,956,911,435,79,48),
 Organ=c("neer","maks","süda","kops",
          "neer ja\nkõhunääre","kõhunääre","sool","süda ja\nkops"))
-qplot(reorder(Organ,Arv),(Arv/sum(Arv))*100, 
-      data=trans, geom="bar",stat="identity") + 
-  xlab("Transplanteeritud organ") + ylab("% transplantatsioonidest") +
+ggplot(trans, aes(reorder(Organ,Arv), (Arv/sum(Arv))*100)) +
+         geom_bar(stat = "identity") + 
+  xlab("Transplanteeritud organ") + 
+  ylab("% transplantatsioonidest") +
   ggtitle("Organ-spetsiifilised transplantatsioonid\nUSA-s 2000. aastal (N = 22,953 patsienti)")
 ```
 ***=right
@@ -337,6 +338,52 @@ Shankaran et al., 2001.
 - HER2/neu positiivsed rinnakartsinoomid, seal 10-20x üleekspressioon (trastuzumab).
 - GD3 gangliosiid (siaalhapet sisaldav glükosfingolipiid) on mitmetes vähkides (melanoon sh.) üle ekspresseeritud.
 
+---
+## Vähi antigeenid
+
+1. TSTA - *tumor specific transplantation antigens (TA)* strukturaalselt uudsed, kindla vähi või vähitüübiga seotud antigeenid mida ei esine normaalsetes kudedes.
+2. TATA - *tumor associated TA* -- vähis ekspresseeritud normaalsed valgud mille suhtes pole mingil põhjusel täielikku tolerantsust tekkinud.
+
+Vähitüüp|Valk|Antigenne peptiid
+--------|----|-----------------
+melanoom, suuõõne kartsinoom, maksa kartsinoom, mitte-väikserakuline kopsuvähk|MAGE|EADPTGHSY, SAYGEPRKL
+melanoom|türosinaas|MLLAVLYCL, YMNGTMSQV
+käärsoole kartsinoom|kartsino-embrüonaalne antigeen (CEA)|YLSGANLNL
+rinna- ja munasarja kartsinoomid|HER2/neu|KIFGSLAFL
+pea-kaela kartsinoom|kaspaas 8|FPSDWCYF
+krooniline müelogeenne leukeemia (CML)|BCR-ABL|ATGFKQSSKALQRPVAS
+eesnäärme kartsinoom|eesnäärme spetsiifiline antigeen (PSA)|FLTPKKKLQCV, VISNDVCAQV
+
+
+<footer class="source">Tabel: R.A. Goldsby et al., Immunology, 5th ed. New York: Freeman 2002; B.J. Van den Eynde and P. van der Bruggen, Curr Opin. Immunol. 9:684-693, 1997. Adapteeritud: The Biology of Cancer, 2007.
+</footer>
+
+---
+
+## Keemiliselt indutseeritud fibrosarkoomi antigeenide spetsiifilisus
+
+- BALB/c hiiri immuniseeriti 3-MC-indutseeritud Meth A fibrosarkoomi lüsaadiga
+- Immuniseeritud hiirtest eraldati antigeeni presenteerivad 24D3 lümfotsüüdid
+- Ainult Meth A lüsaat indutseeris neid lümfotsüüte jagunema (A, vasakul)
+- 24D3 lümfotsüütidega transplanteeritud hiirtes kasvab küll teine samasugune fibrosarkoom (CMS5, kõige parempoolne pilt) aga mitte Meth A (keskel).
+
+
+```{r echo=FALSE, results='asis', fig.height=3}
+library(gtable)
+library(grid)
+g <- gtable(widths = unit(rep(1,3),"null"), heights = unit(.5,"null"))
+library(png)
+a <- lapply(c("assets/img/proliferation_of_24D3_in_response-to_MethA.png",
+       "assets/img/MethA_growth_is_sensitive_to_24D3.png",
+       "assets/img/MethA_growth_is_not_sensitive_to_24D3.png"), readPNG)            
+a <- lapply(a, rasterGrob)
+b <- gtable_add_grob(g, a, t = c(1,1,1), l = c(1,2,3))
+grid.draw(b)
+```
+
+<footer class="source">T. Matsutake and P.K. Srivastava, 2001. PNAS98:3992-3997. The immunoprotective MHC II epitope of a chemically induced tumor harbors a unique mutation in a ribosomal protein. doi: 10.1073/pnas.071523398
+</footer>
+
 ---- 
 # Inimese GI vähi mutatsioonide immunogeensus
 
@@ -349,7 +396,7 @@ library(rvest)
 tdist <- read_html("http://www.sciencemag.org/content/350/6266/1387/T1.expansion.html")
 crc <- tdist %>% html_node("#table-1") %>% html_table(header = TRUE) %>% dplyr::select(1:3,8:11)
 colnames(crc) <- c("ID","Age/sex","Tumor","Mutated prot","Aa change","T cell type","% in tumor")
-kable(crc)
+knitr::kable(crc)
 ```
 
 <footer class="source">Tabel: Mutation-reactive T cells in metastatic GI cancers [Tran, et al., (2015)](http://www.sciencemag.org/content/350/6266/1387/T1.expansion.html) Immunogenicity of somatic mutations in human gastrointestinal cancers. Science 11 December 2015: Vol. 350 no. 6266 pp. 1387-1390
@@ -526,11 +573,13 @@ Kõige sagedamini kirjeldatud pro-tumorigensete omadustega CD4+ rakud
     - TGF-$\beta$ ja IL-10 sekretsiooni ja
     - CTLA4-vahendatud kontaktinhibitsiooni.
 
-<img src="http://www.nature.com/nm/journal/v18/n5/images/nm.2731-F2.jpg" style="height:240px;"/>
+<img src="http://www.nature.com/nrc/journal/v13/n11/images/nrc3611-f2.jpg" style="height:240px;"/>
 
 <footer class="source">Pilt:
-<a href="http://www.nature.com/nm/journal/v18/n5/fig_tab/nm.2731_F2.html">
-Holgate, 2012.
+<a href="http://www.nature.com/nrc/journal/v13/n11/fig_tab/nrc3611_F2.html">
+Inflammation-induced cancer: crosstalk between tumours, immune cells and microorganisms
+Eran Elinav,	Roni Nowarski,	Christoph A. Thaiss,	Bo Hu,	Chengcheng Jin	& Richard A. Flavell
+Nature Reviews Cancer 13, 759–771 (2013) doi:10.1038/nrc3611.
 </a>
 </footer>
 

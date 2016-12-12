@@ -328,13 +328,7 @@ Sakari Vanharanta, Joan Massagué, 2013.
 </ul>
 
 <div style='float:left;width:48%;' class='centered'>
-  <pre><code>## Warning: `stat` is deprecated
-</code></pre>
-
-<pre><code>## Error: stat_count() must not be used with a y aesthetic.
-</code></pre>
-
-<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
+  <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
 
 </div>
 <div style='float:right;width:48%;'>
@@ -574,20 +568,301 @@ Shankaran et al., 2001.
 
 <slide class="" id="slide-18" style="background:;">
   <hgroup>
+    <h2>Vähi antigeenid</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>TSTA - <em>tumor specific transplantation antigens (TA)</em> strukturaalselt uudsed, kindla vähi või vähitüübiga seotud antigeenid mida ei esine normaalsetes kudedes.</li>
+<li>TATA - <em>tumor associated TA</em> -- vähis ekspresseeritud normaalsed valgud mille suhtes pole mingil põhjusel täielikku tolerantsust tekkinud.</li>
+</ol>
+
+<table><thead>
+<tr>
+<th>Vähitüüp</th>
+<th>Valk</th>
+<th>Antigenne peptiid</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>melanoom, suuõõne kartsinoom, maksa kartsinoom, mitte-väikserakuline kopsuvähk</td>
+<td>MAGE</td>
+<td>EADPTGHSY, SAYGEPRKL</td>
+</tr>
+<tr>
+<td>melanoom</td>
+<td>türosinaas</td>
+<td>MLLAVLYCL, YMNGTMSQV</td>
+</tr>
+<tr>
+<td>käärsoole kartsinoom</td>
+<td>kartsino-embrüonaalne antigeen (CEA)</td>
+<td>YLSGANLNL</td>
+</tr>
+<tr>
+<td>rinna- ja munasarja kartsinoomid</td>
+<td>HER2/neu</td>
+<td>KIFGSLAFL</td>
+</tr>
+<tr>
+<td>pea-kaela kartsinoom</td>
+<td>kaspaas 8</td>
+<td>FPSDWCYF</td>
+</tr>
+<tr>
+<td>krooniline müelogeenne leukeemia (CML)</td>
+<td>BCR-ABL</td>
+<td>ATGFKQSSKALQRPVAS</td>
+</tr>
+<tr>
+<td>eesnäärme kartsinoom</td>
+<td>eesnäärme spetsiifiline antigeen (PSA)</td>
+<td>FLTPKKKLQCV, VISNDVCAQV</td>
+</tr>
+</tbody></table>
+
+<p><footer class="source">Tabel: R.A. Goldsby et al., Immunology, 5th ed. New York: Freeman 2002; B.J. Van den Eynde and P. van der Bruggen, Curr Opin. Immunol. 9:684-693, 1997. Adapteeritud: The Biology of Cancer, 2007.
+</footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Keemiliselt indutseeritud fibrosarkoomi antigeenide spetsiifilisus</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>BALB/c hiiri immuniseeriti 3-MC-indutseeritud Meth A fibrosarkoomi lüsaadiga</li>
+<li>Immuniseeritud hiirtest eraldati antigeeni presenteerivad 24D3 lümfotsüüdid</li>
+<li>Ainult Meth A lüsaat indutseeris neid lümfotsüüte jagunema (A, vasakul)</li>
+<li>24D3 lümfotsüütidega transplanteeritud hiirtes kasvab küll teine samasugune fibrosarkoom (CMS5, kõige parempoolne pilt) aga mitte Meth A (keskel).</li>
+</ul>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"></p>
+
+<p><footer class="source">T. Matsutake and P.K. Srivastava, 2001. PNAS98:3992-3997. The immunoprotective MHC II epitope of a chemically induced tumor harbors a unique mutation in a ribosomal protein. doi: 10.1073/pnas.071523398
+</footer></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
     <h1>Inimese GI vähi mutatsioonide immunogeensus</h1>
   </hgroup>
   <article data-timings="">
-    <pre><code>## Error in open.connection(x, &quot;rb&quot;): HTTP error 403.
-</code></pre>
-
-<pre><code>## Error in eval(expr, envir, enclos): object &#39;tdist&#39; not found
-</code></pre>
-
-<pre><code>## Error in colnames(crc) &lt;- c(&quot;ID&quot;, &quot;Age/sex&quot;, &quot;Tumor&quot;, &quot;Mutated prot&quot;, : object &#39;crc&#39; not found
-</code></pre>
-
-<pre><code>## Error in inherits(x, &quot;list&quot;): object &#39;crc&#39; not found
-</code></pre>
+    <table><thead>
+<tr>
+<th align="left">ID</th>
+<th align="left">Age/sex</th>
+<th align="left">Tumor</th>
+<th align="left">Mutated prot</th>
+<th align="left">Aa change</th>
+<th align="left">T cell type</th>
+<th align="left">% in tumor</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">3737*</td>
+<td align="left">45/F</td>
+<td align="left">Bile duct</td>
+<td align="left">ERBB2IP</td>
+<td align="left">E805G</td>
+<td align="left">CD4</td>
+<td align="left">0.009</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">E805G</td>
+<td align="left">CD4</td>
+<td align="left">0.375</td>
+</tr>
+<tr>
+<td align="left">3812</td>
+<td align="left">44/M</td>
+<td align="left">Bile duct</td>
+<td align="left">—</td>
+<td align="left">—</td>
+<td align="left">—</td>
+<td align="left">—</td>
+</tr>
+<tr>
+<td align="left">3942</td>
+<td align="left">46/F</td>
+<td align="left">Rectal</td>
+<td align="left">NUP98</td>
+<td align="left">A359D</td>
+<td align="left">CD8</td>
+<td align="left">0.67</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">KARS</td>
+<td align="left">D356</td>
+<td align="left">CD8</td>
+<td align="left">0.020</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">GPD2</td>
+<td align="left">E426K</td>
+<td align="left">CD4</td>
+<td align="left">0.037</td>
+</tr>
+<tr>
+<td align="left">3948</td>
+<td align="left">48/M</td>
+<td align="left">Esophageal</td>
+<td align="left">PLEC</td>
+<td align="left">E1179K</td>
+<td align="left">CD4</td>
+<td align="left">NE</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">XPO7</td>
+<td align="left">P274S</td>
+<td align="left">CD4</td>
+<td align="left">NE</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">AKAP2</td>
+<td align="left">Q418K</td>
+<td align="left">CD4</td>
+<td align="left">NE</td>
+</tr>
+<tr>
+<td align="left">3971</td>
+<td align="left">49/M</td>
+<td align="left">Colon</td>
+<td align="left">CASP8</td>
+<td align="left">F67V</td>
+<td align="left">CD8</td>
+<td align="left">1.25</td>
+</tr>
+<tr>
+<td align="left">3978</td>
+<td align="left">46/F</td>
+<td align="left">Bile duct</td>
+<td align="left">ITGB4</td>
+<td align="left">S1002I</td>
+<td align="left">CD4</td>
+<td align="left">NE</td>
+</tr>
+<tr>
+<td align="left">3995</td>
+<td align="left">50/M</td>
+<td align="left">Colon</td>
+<td align="left">TUBGCP2</td>
+<td align="left">P293L</td>
+<td align="left">CD8</td>
+<td align="left">0.023</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">RNF213</td>
+<td align="left">N1702S</td>
+<td align="left">CD8</td>
+<td align="left">0.60</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">KRAS</td>
+<td align="left">G12D</td>
+<td align="left">CD8</td>
+<td align="left">0.055</td>
+</tr>
+<tr>
+<td align="left">4007</td>
+<td align="left">52/M</td>
+<td align="left">Colon</td>
+<td align="left">SKIV2L</td>
+<td align="left">R653H</td>
+<td align="left">CD8</td>
+<td align="left">0.090</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">R653H</td>
+<td align="left">CD8</td>
+<td align="left">0.014</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">H3F3B</td>
+<td align="left">A48T</td>
+<td align="left">CD8</td>
+<td align="left">1.19</td>
+</tr>
+<tr>
+<td align="left">4032</td>
+<td align="left">46/M</td>
+<td align="left">Colon</td>
+<td align="left">API5</td>
+<td align="left">R243Q</td>
+<td align="left">CD8</td>
+<td align="left">0.083</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">R243Q</td>
+<td align="left">CD8</td>
+<td align="left">0.059</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">RNF10</td>
+<td align="left">E572K</td>
+<td align="left">CD8</td>
+<td align="left">0.030</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">PHLPP1</td>
+<td align="left">G566E</td>
+<td align="left">CD8</td>
+<td align="left">0.081</td>
+</tr>
+<tr>
+<td align="left">4069</td>
+<td align="left">57/M</td>
+<td align="left">Pancreatic</td>
+<td align="left">ZFYVE27</td>
+<td align="left">R6H</td>
+<td align="left">CD8</td>
+<td align="left">0.088</td>
+</tr>
+</tbody></table>
 
 <p><footer class="source">Tabel: Mutation-reactive T cells in metastatic GI cancers <a href="http://www.sciencemag.org/content/350/6266/1387/T1.expansion.html">Tran, et al., (2015)</a> Immunogenicity of somatic mutations in human gastrointestinal cancers. Science 11 December 2015: Vol. 350 no. 6266 pp. 1387-1390
 </footer></p>
@@ -596,7 +871,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-19" style="background:;">
+<slide class="" id="slide-21" style="background:;">
   <hgroup>
     <h2>Immuunrakud kasvaja mikrokeskonnas</h2>
   </hgroup>
@@ -625,7 +900,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-20" style="background:;">
+<slide class="" id="slide-22" style="background:;">
   <hgroup>
     <h2>Kasvajasse infiltreeruvad erinevad T-raku populatsioonid</h2>
   </hgroup>
@@ -652,7 +927,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-21" style="background:;">
+<slide class="" id="slide-23" style="background:;">
   <hgroup>
     <h2>T-lümfotsüüdid</h2>
   </hgroup>
@@ -681,7 +956,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-22" style="background:;">
+<slide class="" id="slide-24" style="background:;">
   <hgroup>
     <h2>Soolevähis on vähi T-rakud seotud hea prognoosiga</h2>
   </hgroup>
@@ -699,7 +974,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-23" style="background:;">
+<slide class="" id="slide-25" style="background:;">
   <hgroup>
     <h2>Th1, CTL ja mälu-T</h2>
   </hgroup>
@@ -726,7 +1001,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-24" style="background:;">
+<slide class="" id="slide-26" style="background:;">
   <hgroup>
     <h2>Cytotoxic T Cells on Patrol</h2>
   </hgroup>
@@ -737,7 +1012,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-25" style="background:;">
+<slide class="" id="slide-27" style="background:;">
   <hgroup>
     <h2>Th2 &amp; Th17</h2>
   </hgroup>
@@ -766,7 +1041,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-26" style="background:;">
+<slide class="" id="slide-28" style="background:;">
   <hgroup>
     <h2>Pahaloomulistes kasvajates on rohkem Th17 rakke</h2>
   </hgroup>
@@ -794,7 +1069,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-27" style="background:;">
+<slide class="" id="slide-29" style="background:;">
   <hgroup>
     <h2>Th17 pro-tumorigeensed mehhanismid</h2>
   </hgroup>
@@ -825,7 +1100,7 @@ Shankaran et al., 2001.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-28" style="background:;">
+<slide class="" id="slide-30" style="background:;">
   <hgroup>
     <h2>Immuunosuppressiivsed Treg rakud</h2>
   </hgroup>
@@ -842,11 +1117,13 @@ Shankaran et al., 2001.
 </ul></li>
 </ul>
 
-<p><img src="http://www.nature.com/nm/journal/v18/n5/images/nm.2731-F2.jpg" style="height:240px;"/></p>
+<p><img src="http://www.nature.com/nrc/journal/v13/n11/images/nrc3611-f2.jpg" style="height:240px;"/></p>
 
 <p><footer class="source">Pilt:
-<a href="http://www.nature.com/nm/journal/v18/n5/fig_tab/nm.2731_F2.html">
-Holgate, 2012.
+<a href="http://www.nature.com/nrc/journal/v13/n11/fig_tab/nrc3611_F2.html">
+Inflammation-induced cancer: crosstalk between tumours, immune cells and microorganisms
+Eran Elinav,    Roni Nowarski,  Christoph A. Thaiss,    Bo Hu,  Chengcheng Jin  &amp; Richard A. Flavell
+Nature Reviews Cancer 13, 759–771 (2013) doi:10.1038/nrc3611.
 </a>
 </footer></p>
 
@@ -854,7 +1131,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-29" style="background:;">
+<slide class="" id="slide-31" style="background:;">
   <hgroup>
     <h2>B rakud</h2>
   </hgroup>
@@ -878,7 +1155,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-30" style="background:;">
+<slide class="" id="slide-32" style="background:;">
   <hgroup>
     <h1>FcR\(\gamma\) reguleerib ka makrofaagide angiogeneetilist ja protumorigeenset toimet.</h1>
   </hgroup>
@@ -895,7 +1172,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-31" style="background:;">
+<slide class="" id="slide-33" style="background:;">
   <hgroup>
     <h2>NK rakud</h2>
   </hgroup>
@@ -926,7 +1203,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-32" style="background:;">
+<slide class="" id="slide-34" style="background:;">
   <hgroup>
     <h2>NKG2D ja ligandid</h2>
   </hgroup>
@@ -954,7 +1231,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-33" style="background:;">
+<slide class="" id="slide-35" style="background:;">
   <hgroup>
     <h2>Inhibeerivad KIR valgud</h2>
   </hgroup>
@@ -973,7 +1250,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-34" style="background:;">
+<slide class="" id="slide-36" style="background:;">
   <hgroup>
     <h2>Kasvaja makrofaagid</h2>
   </hgroup>
@@ -999,7 +1276,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-35" style="background:;">
+<slide class="" id="slide-37" style="background:;">
   <hgroup>
     <h2>TGF-β mehhanismid vähi immuunsupressioonis</h2>
   </hgroup>
@@ -1017,7 +1294,7 @@ Holgate, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-36" style="background:;">
+<slide class="" id="slide-38" style="background:;">
   <hgroup>
     <h2><em>Programmed death-1</em> vähi immunsupressioonis</h2>
   </hgroup>
@@ -1041,7 +1318,7 @@ Hayden, 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-37" style="background:;">
+<slide class="" id="slide-39" style="background:;">
   <hgroup>
     <h2>Kasvaja immuunkontekst</h2>
   </hgroup>
@@ -1058,7 +1335,7 @@ Fridman et al., 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue dark nobackground" id="slide-38" style="background:;">
+<slide class="segue dark nobackground" id="slide-40" style="background:;">
   <hgroup>
     <h2>Lingid teistele loengutele</h2>
   </hgroup>
@@ -1068,7 +1345,7 @@ Fridman et al., 2012.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-39" style="background:;">
+<slide class="" id="slide-41" style="background:;">
   <article data-timings="">
     
 <div style='float:left;width:48%;' class='centered'>
@@ -1209,134 +1486,146 @@ Fridman et al., 2012.
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=18 title='Inimese GI vähi mutatsioonide immunogeensus'>
+        data-slide=18 title='Vähi antigeenid'>
          18
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=19 title='Immuunrakud kasvaja mikrokeskonnas'>
+        data-slide=19 title='Keemiliselt indutseeritud fibrosarkoomi antigeenide spetsiifilisus'>
          19
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='Kasvajasse infiltreeruvad erinevad T-raku populatsioonid'>
+        data-slide=20 title='Inimese GI vähi mutatsioonide immunogeensus'>
          20
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=21 title='T-lümfotsüüdid'>
+        data-slide=21 title='Immuunrakud kasvaja mikrokeskonnas'>
          21
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='Soolevähis on vähi T-rakud seotud hea prognoosiga'>
+        data-slide=22 title='Kasvajasse infiltreeruvad erinevad T-raku populatsioonid'>
          22
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='Th1, CTL ja mälu-T'>
+        data-slide=23 title='T-lümfotsüüdid'>
          23
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='Cytotoxic T Cells on Patrol'>
+        data-slide=24 title='Soolevähis on vähi T-rakud seotud hea prognoosiga'>
          24
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='Th2 &amp; Th17'>
+        data-slide=25 title='Th1, CTL ja mälu-T'>
          25
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=26 title='Pahaloomulistes kasvajates on rohkem Th17 rakke'>
+        data-slide=26 title='Cytotoxic T Cells on Patrol'>
          26
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=27 title='Th17 pro-tumorigeensed mehhanismid'>
+        data-slide=27 title='Th2 &amp; Th17'>
          27
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=28 title='Immuunosuppressiivsed Treg rakud'>
+        data-slide=28 title='Pahaloomulistes kasvajates on rohkem Th17 rakke'>
          28
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=29 title='B rakud'>
+        data-slide=29 title='Th17 pro-tumorigeensed mehhanismid'>
          29
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=30 title='FcR\(\gamma\) reguleerib ka makrofaagide angiogeneetilist ja protumorigeenset toimet.'>
+        data-slide=30 title='Immuunosuppressiivsed Treg rakud'>
          30
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=31 title='NK rakud'>
+        data-slide=31 title='B rakud'>
          31
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=32 title='NKG2D ja ligandid'>
+        data-slide=32 title='FcR\(\gamma\) reguleerib ka makrofaagide angiogeneetilist ja protumorigeenset toimet.'>
          32
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=33 title='Inhibeerivad KIR valgud'>
+        data-slide=33 title='NK rakud'>
          33
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=34 title='Kasvaja makrofaagid'>
+        data-slide=34 title='NKG2D ja ligandid'>
          34
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=35 title='TGF-β mehhanismid vähi immuunsupressioonis'>
+        data-slide=35 title='Inhibeerivad KIR valgud'>
          35
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=36 title='<em>Programmed death-1</em> vähi immunsupressioonis'>
+        data-slide=36 title='Kasvaja makrofaagid'>
          36
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=37 title='Kasvaja immuunkontekst'>
+        data-slide=37 title='TGF-β mehhanismid vähi immuunsupressioonis'>
          37
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=38 title='Lingid teistele loengutele'>
+        data-slide=38 title='<em>Programmed death-1</em> vähi immunsupressioonis'>
          38
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='NA'>
+        data-slide=39 title='Kasvaja immuunkontekst'>
          39
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=40 title='Lingid teistele loengutele'>
+         40
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=41 title='NA'>
+         41
       </a>
     </li>
   </ul>

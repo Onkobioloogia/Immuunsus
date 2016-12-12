@@ -21,9 +21,11 @@ transplants <- transplants %>% mutate(ratio = expected/observed)
 library(MASS)
 params <- fitdistr(transplants$ratio, densfun = "beta", start = list(shape1 = 0.8, shape2 = 2))$estimate
 
-trcan <- transplants %>% mutate(eb_ratio = (expected + params[1])/(observed + params[1] + params[2]),
+trcan <- transplants %>% 
+  mutate(eb_ratio = (expected + params[1])/(observed + params[1] + params[2]),
                        eb_increase = round(1/eb_ratio, 1)) %>% 
   dplyr::select(site, observed, expected, eb_increase)
+
 library(knitr)
 kable(trcan, col.names = c("Site of cancer", "Nr. cases observed", "Nr. cases expected", "Ratio obs/exp (adj)"))
                        
