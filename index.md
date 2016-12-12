@@ -207,7 +207,7 @@ Sakari Vanharanta, Joan Massagué, 2013.
 
 ***=left
 
-![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4-1.png)
+![plot of chunk organ](assets/fig/organ-1.png)
 ***=right
 
 Nahavähi populatsioon-standardiseeritud intsidents organi transplantatsiooni patsientidel (Norra ja Holland).
@@ -344,7 +344,7 @@ eesnäärme kartsinoom|eesnäärme spetsiifiline antigeen (PSA)|FLTPKKKLQCV, VIS
 - 24D3 lümfotsüütidega transplanteeritud hiirtes kasvab küll teine samasugune fibrosarkoom (CMS5, kõige parempoolne pilt) aga mitte Meth A (keskel).
 
 
-![plot of chunk unnamed-chunk-5](assets/fig/unnamed-chunk-5-1.png)
+![plot of chunk metha](assets/fig/metha-1.png)
 
 <footer class="source">T. Matsutake and P.K. Srivastava, 2001. PNAS98:3992-3997. The immunoprotective MHC II epitope of a chemically induced tumor harbors a unique mutation in a ribosomal protein. doi: 10.1073/pnas.071523398
 </footer>
