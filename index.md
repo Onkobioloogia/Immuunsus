@@ -207,7 +207,7 @@ Sakari Vanharanta, Joan Massagué, 2013.
 
 ***=left
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4-1.png)
 ***=right
 
 Nahavähi populatsioon-standardiseeritud intsidents organi transplantatsiooni patsientidel (Norra ja Holland).
@@ -344,7 +344,7 @@ eesnäärme kartsinoom|eesnäärme spetsiifiline antigeen (PSA)|FLTPKKKLQCV, VIS
 - 24D3 lümfotsüütidega transplanteeritud hiirtes kasvab küll teine samasugune fibrosarkoom (CMS5, kõige parempoolne pilt) aga mitte Meth A (keskel).
 
 
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-5](assets/fig/unnamed-chunk-5-1.png)
 
 <footer class="source">T. Matsutake and P.K. Srivastava, 2001. PNAS98:3992-3997. The immunoprotective MHC II epitope of a chemically induced tumor harbors a unique mutation in a ribosomal protein. doi: 10.1073/pnas.071523398
 </footer>
@@ -712,15 +712,12 @@ Fridman et al., 2012.
 
 ***=left 
 
-- [Sissejuhatav loeng](http://tpall.github.io/sissejuhatus)
-- [Vähitüübid](http://tpall.github.io/Vahityybid)
-- [Onkoviirused](http://tpall.github.io/Onkoviirused)
-- [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Sissejuhatav loeng:vähk, haigestumus ja vähitüübid](http://tpall.github.io/onkobioloogia)
+- [Viirused ja onkogeenid](http://tpall.github.io/viirused-ja-onkogeenid)
 - [Retseptorid](http://tpall.github.io/Retseptorid)
 - [Signaalirajad](http://tpall.github.io/Signaalirajad)
 - [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
 - [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
-
 
 ***=right 
 
@@ -728,7 +725,6 @@ Fridman et al., 2012.
 - [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
 - [Tumorigenees](http://tpall.github.io/Tumorigenees)
 - [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
-- [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
-- [Metastaasid](http://tpall.github.io/Metastaas)
+- [Mikrokeskkond ja metastaas](http://tpall.github.io/Mikrokeskkond-ja-metastaas)
 - [Immuunsus](http://tpall.github.io/Immuunsus)
 - [Vähiravimid](http://tpall.github.io/Vahiravim)
